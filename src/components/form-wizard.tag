@@ -17,7 +17,7 @@
                     </li>
                     </ul>
                     <label>{idX}</label>
-                    <div id={stepcontainerid} class="stepContainer" style="height: 350px;"> 
+                    <div id={stepcontainerid} class="stepContainer" style="height: 350px;">
                        <yield/>
                     </div>
                     <div class="actionBar">
@@ -28,7 +28,7 @@
                           <div class="loader">Loading</div>
                           <a href="#" class="buttonPrevious btn btn-primary" onclick={prev}> {opts.prevbutton}</a>
                           <a href="#" class="buttonNext btn btn-success"     onclick={next}> {opts.nextbutton}</a>
-                          <a href="#" class="buttonFinish btn btn-default">  {opts.donebutton}</a>  
+                          <a href="#" class="buttonFinish btn btn-default">  {opts.donebutton}</a>
                     </div>
              </div>
           </div>
@@ -49,7 +49,7 @@
              title:document.getElementById(this.stepcontainerid).children[j].attributes['title'].value,
              toref: "gotToRef(\'" +this.idd +"','"+ j +"','"+ this.stepcontainerid + "\')"
            });
-        
+
        }
        var fids= 'wizardIds_'+this.stepcontainerid
        localStorage.setItem(fids,JSON.stringify(this.ids));

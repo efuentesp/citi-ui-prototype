@@ -4,18 +4,93 @@
   border-bottom: 1px solid #eee;
 }
 
-.testBtnAdd {
-  background: #FFA202;
+.gradientBNMX {
+    background: linear-gradient(#00bdf2, #004785);
+    color: #ffffff;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+/*****************************/
+/******** BTN-SUCCESS ********/
+/*****************************/
+.btn-success {
+  background: #004785;
   color: #FFFFFF;
 }
 
-/*
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: #00BDF2;
+}
+
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+  color: #004785;
+  background: #F7F7F7;
+  border-color: #F7F7F7;
+}
+
+/*****************************/
+/******** BTN-PRIMARY ********/
+/*****************************/
+.btn-primary {
+  background: #004785;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: #004785;
+  background-color: #F7F7F7;
+  border-color: #F7F7F7;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  color: #004785;
+  background: #F7F7F7;
+  border-color: #F7F7F7;
+}
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+/*****************************/
+/******** LOGO BANAMEX ********/
+/*****************************/
+i.fa-banamex  {
+    content:"citibanamex";
+    background-image:url('C:\\SOFTTEK1\\Banamex\\estilosBanamex\\riot-ui-prototype\\src\\image\\logoBanamex.jpg');
+
+    width: 50px; //WIDTH of the icon
+    height: 50px; //HEIGHT of the icon
+    display: inline-block;
+    background-position:middle;
+    background-size:cover;
+}
+
+i.fa-bars  {
+    color: #FFFFFF;
+}
+
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+/**********************************/
+/******** BACKGROUND MENU ********/
+/*********************************/
+.backgroundMenu {
+    //background: linear-gradient(180deg, #002D72, #00BDF2);
+    background: linear-gradient(183deg, #002D72, #00BDF2);
+}
+
+.backgroundMenuSolid {
+    background: #002D72;
+}
+
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+/*********************************/
+/******** CEBRA DE TABLAS ********/
+/*********************************/
+
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  //background-color: #00BDF2;
-  background-color: #D7D7D7;
+  background-color: #F7F7F7;
 }
 
 .table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
   background-color: #FFFFFF;
 }
-*/

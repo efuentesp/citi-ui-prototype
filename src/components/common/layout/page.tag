@@ -1,7 +1,8 @@
 <page>
   <content>
-  <div class="page-title" style="background: linear-gradient(#00bdf2, #004785); color: #ffffff;">
-    <div class="title_left">
+  <div class="page-title gradientBNMX">
+    <div class="title_left" style="border: 0px solid lime; width: 200px;"><i class="fa fa-banamex"></i></div>
+    <div class="title_left" style="display: inline;">
       <h3>{ parent.opts.title }</h3>
     </div>
   </div>

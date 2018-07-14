@@ -11,7 +11,7 @@
       { type: "delete", button: { label: "Eliminar", class: "btn btn-danger", icon: "fa fa-trash" } },
       { type: "unknown", button: { label: "...", class: "btn btn-default", icon: "fa fa-question" } },
       { type: "return", button: { label: "Regresar", class: "btn btn-link", icon: "fa fa-arrow-left" } },
-      { type: "add", button: { label: "", class: "btn testBtnAdd", icon: "fa fa-plus" } },
+      { type: "add", button: { label: "", class: "btn btn-success", icon: "fa fa-plus" } },
   	  { type: "search", button: { label: "Buscar", class: "btn btn-primary", icon: "fa fa-search" } },
   	  { type: "custom", button: { label: opts.caption, class: "btn btn-primary", icon: opts.icon } }
     ];

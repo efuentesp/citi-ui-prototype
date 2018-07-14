@@ -1,5 +1,5 @@
 <app>
-	<sidebar title="Prototipo IU" icon="fa fa-diamond">
+	<sidebar title="citibanamex" icon="fa fa-banamex">
 		<sidebar-profile
 			picture="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
 			name="Juan Pérez González" role="Afiliado"/>

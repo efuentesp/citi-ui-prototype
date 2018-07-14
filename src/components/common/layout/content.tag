@@ -1,5 +1,5 @@
 <content>
-  <div class="right_col" role="main" id="contentid">
+  <div class="right_col" role="main" id="contentid" style="padding: 0px;">
       <div class="clearfix"></div>
       <yield/>
   </div>
@@ -9,7 +9,7 @@
       // for (var j = 1; j < innerchildren.length; j++) {
       //     document.getElementById("contentid").children[j].style.display = 'none'
       // }
-       
+
       // this.update();
     })
   </script>
