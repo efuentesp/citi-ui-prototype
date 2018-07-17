@@ -5,7 +5,7 @@
 }
 
 .gradientBNMX {
-    background: linear-gradient(#00bdf2, #004785);
+    background: linear-gradient(180deg, #00bdf2 1.15%, #004785 90.35%);
     color: #ffffff;
 }
 
@@ -56,8 +56,8 @@ i.fa-banamex  {
     content:"citibanamex";
     background-image:url('C:\\SOFTTEK1\\Banamex\\estilosBanamex\\riot-ui-prototype\\src\\image\\logoBanamex.jpg');
 
-    width: 50px; //WIDTH of the icon
-    height: 50px; //HEIGHT of the icon
+    width: 40px; //WIDTH of the icon
+    height: 40px; //HEIGHT of the icon
     display: inline-block;
     background-position:middle;
     background-size:cover;
@@ -74,11 +74,14 @@ i.fa-bars  {
 /*********************************/
 .backgroundMenu {
     //background: linear-gradient(180deg, #002D72, #00BDF2);
-    background: linear-gradient(183deg, #002D72, #00BDF2);
+    //background: linear-gradient(183deg, #002D72, #00BDF2);
+    background: #002D72;
 }
 
 .backgroundMenuSolid {
     background: #002D72;
+    border: 3px solid #002D72;
+    height: 58px;
 }
 
 
@@ -93,4 +96,59 @@ i.fa-bars  {
 
 .table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
   background-color: #FFFFFF;
+}
+
+
+//-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+.clearfix {
+  height: 58px !important;
+}
+
+/***********************************************/
+/******** DEFINE COLOR - SCROLL SUBMENU ********/
+/***********************************************/
+.nav.side-menu > side-menu > li.current-page, .nav.side-menu > side-menu > li.active {
+    border-right: 5px solid #00bdf2;
+}
+
+.nav-sm .nav.child_menu li.active, .nav-sm .nav.side-menu li.active-sm {
+    border-right: 5px solid #00bdf2;
+}
+
+.nav-sm ul.nav.child_menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 210px;
+    z-index: 4000;
+    background: linear-gradient(#00bdf2, #004785), #FFFFFF;
+    display: none;
+}
+
+/***********************************************/
+/******** DEFINE COLOR - OPCION SUBMENU ********/
+/***********************************************/
+.nav.side-menu > side-menu > li.active > a {
+    text-shadow: rgba(255, 255, 255, 1.0) 0 -1px 0;
+    // background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00bdf2), color-stop(100%, red)), lime;
+    // background: -webkit-linear-gradient(#334556, #2C4257), #2A3F54;
+    // background: -moz-linear-gradient(#334556, #2C4257), #2A3F54;
+    // background: -o-linear-gradient(#334556, #2C4257), #2A3F54;
+    background: linear-gradient(#00bdf2, #004785), #FFFFFF;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+/***************************************/
+/******** DEFINE COLOR - BEFORE ********/
+/***************************************/
+.nav-md ul.nav.child_menu li:before {
+    background: rgba(255, 255, 255, 1.0);
+    margin-top: 7px;
+}
+
+.nav.side-menu > side-menu > li > a, .nav.child_menu > menu-item > li > a {
+    color: #FFFFFF;
+    font-weight: 500;
 }

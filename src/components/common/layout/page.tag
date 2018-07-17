@@ -1,8 +1,8 @@
 <page>
   <content>
   <div class="page-title gradientBNMX">
-    <div class="title_left" style="border: 0px solid lime; width: 200px;"><i class="fa fa-banamex"></i></div>
-    <div class="title_left" style="display: inline;">
+    <!--div class="title_left" style="border: 1px solid;"><i class="fa fa-banamex"></i></div-->
+    <div class="title_left" style="display: inline; padding-left: 10px;">
       <h3>{ parent.opts.title }</h3>
     </div>
   </div>

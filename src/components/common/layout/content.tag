@@ -1,7 +1,7 @@
 <content>
   <div class="right_col" role="main" id="contentid" style="padding: 0px;">
-      <div class="clearfix"></div>
-      <yield/>
+    <div class="clearfix"></div>
+    <yield/>
   </div>
   <script>
    this.on('mount', function() {
